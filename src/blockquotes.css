@@ -1,0 +1,51 @@
+blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 10px;
+}
+
+.alt blockquote {
+    background-color: var(--accent-alt);
+    margin: 1.5em 0;
+    position: relative;
+    padding: 0.7em;
+    z-index: 1;
+    border-radius: 0.5em;
+}
+
+.alt blockquote::after,
+.alt blockquote::before {
+    color: var(--accent-ui);
+    font-size: 5em;
+    line-height: 0.8;
+}
+
+.alt blockquote::before {
+    content: open-quote;
+    vertical-align: top;
+    position: absolute;
+    left: -0.15em;
+    top: -0.1em;
+}
+
+.alt blockquote::after {
+    content: close-quote;
+    vertical-align: bottom;
+    position: absolute;
+    right: -0.1em;
+    bottom: -0.65em;
+}
+
+[lang='fr'] .alt blockquote::before,
+[lang='fr'] .alt blockquote::after {
+    font-size: 3.5em;
+}
+
+[lang='fr'] .alt blockquote::before {
+    left: -0.3em;
+    top: -0.4em;
+}
+
+[lang='fr'] .alt blockquote::after {
+    right: -0.3em;
+    bottom: -0.3em;
+}

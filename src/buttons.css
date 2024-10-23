@@ -1,0 +1,44 @@
+button,
+[type=submit],
+[type=reset],
+[type=button] {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	white-space: nowrap;
+	transition-property: color;
+	border-color: transparent;
+	height: 34px;
+	border-radius: var(--radius);
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 0.375rem;
+	padding-bottom: 0.375rem;
+	background: var(--primary);
+	color: var(--primary-foreground);
+	font-size: 15px;
+	font-weight: 600;
+	font-family: inherit;
+}
+
+button:focus-visible,
+input[type="submit"]:focus-visible,
+input[type="reset"]:focus-visible,
+input[type="button"]:focus-visible {
+	border: 1px solid black;
+}
+
+button:disabled,
+input[type="submit"]:disabled,
+input[type="reset"]:disabled,
+input[type="button"]:disabled {
+	pointer-events: none;
+	opacity: 0.8;
+}
+
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active {
+	transform: scale(0.95);
+}

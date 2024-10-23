@@ -1,0 +1,57 @@
+::-moz-selection {
+  background: var(--primary-transparent);
+  color: var(--foreground);
+}
+
+::selection {
+  background: var(--primary-transparent);
+  color: var(--foreground);
+}
+
+a {
+  color: var(--primary);
+}
+
+header {
+  padding: 14px;
+}
+
+footer {
+  padding: 14px;
+  background: var(--secondary);
+}
+
+nav {
+  padding: 14px;
+}
+
+main {
+  padding: 14px;
+}
+
+hr {
+	border: 0.5px solid var(--border);
+}
+
+code {
+	font-family: var(--exryber-font-monospace), "Consolas", monospace;
+	background: var(--accent);
+	padding: 2px 4px;
+	border-radius: 5px;
+	font-size: inherit;
+}
+
+kbd {
+  font-family: var(--exryber-font-monospace), "Consolas", monospace;
+  background-color: var(--secondary);
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  color: inherit;
+  display: inline-block;
+  line-height: 1;
+  padding: 2px 4px;
+  white-space: nowrap;
+}
+
+/* Dummy (no function) class for alternative styling */
+.alt {}
