@@ -36,9 +36,11 @@ input[type="button"]:disabled {
 	opacity: 0.8;
 }
 
-button:active,
-input[type="submit"]:active,
-input[type="reset"]:active,
-input[type="button"]:active {
-	transform: scale(0.95);
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  background-color:#002ead;
+  transition: 0.3s;
+  }
 }

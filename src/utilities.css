@@ -81,14 +81,14 @@
 }
 
 button:not(.icon) svg {
-  height: 16px;
-  width: 16px;
+  height: 18px;
+  width: 18px;
   margin-right: 8px;
 }
 
 button:not(.icon) i {
-  height: 16px;
-  width: 16px;
+  height: 18px;
+  width: 18px;
   margin-right: 8px;
 }
 
