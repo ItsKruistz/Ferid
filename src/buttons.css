@@ -16,6 +16,7 @@ button,
 	padding-bottom: 0.375rem;
 	background: var(--primary);
 	color: var(--primary-foreground);
+	vertical-align: middle;
 	font-size: 15px;
 	font-weight: 600;
 	font-family: inherit;
