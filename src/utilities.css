@@ -4,6 +4,10 @@
 	color: inherit;
 }
 
+.outlined:focus {
+  background: var(--selected)
+}
+
 .fill {
 	border-color: transparent;
 	background: var(--accent);
@@ -46,6 +50,10 @@
   background: transparent;
 }
 
+.ghost:focus {
+  background: var(--selected)
+}
+
 .full-width {
   width: 100%;
 }
@@ -80,15 +88,17 @@
   width: 24px;
 }
 
-button:not(.icon) svg {
-  height: 18px;
-  width: 18px;
+button:not(.icon) svg,
+button:not(.icon) i {
+  height: 16px;
+  width: 16px;
   margin-right: 8px;
 }
 
-button:not(.icon) i {
-  height: 18px;
-  width: 18px;
+button:not(.icon).large svg,
+button:not(.icon).large i {
+  height: 24px;
+  width: 24px;
   margin-right: 8px;
 }
 

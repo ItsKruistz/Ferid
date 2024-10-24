@@ -1,10 +1,10 @@
 ::-moz-selection {
-  background: hsl(var(--primary-default), 30%);
+  background: hsl(var(--primary-base), 49.8%, 30%);
   color: var(--foreground);
 }
 
 ::selection {
-  background: hsl(var(--primary-default), 30%);
+  background: hsl(var(--primary-base), 49.8%, 30%);
   color: var(--foreground);
 }
 
