@@ -8,10 +8,14 @@
   background: var(--selected)
 }
 
-.fill {
+.filled {
 	border-color: transparent;
 	background: var(--accent);
 	color: inherit;
+}
+
+.filled:focus {
+  background: var(--accent-high)
 }
 
 .primary {
