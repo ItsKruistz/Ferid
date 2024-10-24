@@ -1,0 +1,98 @@
+/* Radio button styles */
+input[type="radio"] {
+	position: relative; /* Positioning */
+	appearance: none; /* Remove default appearance */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	width: 19px; /* Size */
+	height: 19px;
+	border: 2px solid #b5b5b5; /* Border */
+	border-radius: 50%; /* Circular shape */
+	outline: none; /* Remove outline */
+	cursor: pointer; /* Cursor */
+	vertical-align: middle; /* Vertical alignment */
+	transition: background-color 0.2s, border-color 0.08s; /* Transition */
+}
+
+/* Custom dot inside the radio button */
+input[type="radio"]::after {
+	content: ""; /* Create dot */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0); /* Initial scale */
+	width: 10.8px; /* Dot size */
+	height: 10.8px;
+	border-radius: 50%;
+	background-color: #6750A4; /* Dot color */
+	opacity: 0; /* Initially hidden */
+	transition: transform 0.1s ease-in-out; /* Transition */
+}
+
+/* Custom dot when radio button is checked */
+input[type="radio"]:checked::after {
+	transform: translate(-50%, -50%) scale(0.9); /* Scale up the dot */
+	opacity: 1; /* Make the dot visible */
+}
+
+/* Custom radio button when checked */
+input[type="radio"]:checked {
+	background-color: transparent; /* Background color */
+	border-color: #6750A4; /* Border color */
+}
+
+/* Checkbox styles */
+input[type="checkbox"] {
+    position: relative; /* Positioning */
+    appearance: none; /* Remove default appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-top: 0px; /* Padding */
+    width: 19px; /* Size */
+    height: 19px;
+    border: 1.5px solid var(--accent-high); /* Border */
+    border-radius: 3.4px; /* Border radius */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Cursor */
+    transition: background-color 0.1s, border-color 0.1s; /* Transition */
+    vertical-align: middle; /* Align with text */
+}
+
+/* Custom checkmark */
+input[type="checkbox"]::after {
+    content: ""; /* Create checkmark */
+    position: absolute;
+    bottom: 3.9px; /* Position */
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg) scale(0.9); /* Initial rotation and scale */
+    width: 4px; /* Size */
+    height: 9px;
+    border-bottom: 1.76px solid #fff; /* Borders */
+    border-right: 1.76px solid #fff;
+    opacity: 0; /* Initially hidden */
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out; /* Transition */
+}
+
+input[type="checkbox"]:checked::after {
+    transform: translateX(-50%) rotate(45deg) scale(1.02);
+    opacity: 1;
+}
+
+/* Custom checkbox when checked */
+input[type="checkbox"]:checked {
+    background-color: var(--primary); /* Background color */
+    border-color: var(--primary); /* Border color */
+}
+
+/* Text alignment for checkboxes */
+label {
+    display: inline-flex; /* Inline flex */
+    align-items: center; /* Align items vertically */
+    cursor: pointer; /* Cursor */
+    vertical-align: middle; /* Align with text */
+}
+
+label span {
+    margin-right: 6px;
+    margin-left: 6px;
+}

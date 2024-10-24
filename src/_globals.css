@@ -5,7 +5,7 @@
     --popover-foreground: hsl(240, 10%, 3.9%);
     --selected: hsl(240, 4.8%, 95.9%, 60%);
     --primary-base: 346.8, 77.2%;
-    --primary: hsl(var(--primary-base), 49.8%);
+    --primary: var(--primary-500);
     --primary-50: hsl(var(--primary-base), 80%);
     --primary-100: hsl(var(--primary-base), 70%);
     --primary-200: hsl(var(--primary-base), 65%);
