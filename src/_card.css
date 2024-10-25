@@ -4,3 +4,7 @@ article {
   overflow: hidden;
   margin: 14px 0px;
 }
+
+article > *:not(header):not(footer) {
+  padding: 14px;
+}
