@@ -24,7 +24,7 @@ input[type="radio"]::after {
 	width: 10.8px; /* Dot size */
 	height: 10.8px;
 	border-radius: 50%;
-	background-color: var(--primary); /* Dot color */
+	background-color: #FFF; /* Dot color */
 	opacity: 0; /* Initially hidden */
 	transition: transform 0.1s ease-in-out; /* Transition */
 }
@@ -37,8 +37,8 @@ input[type="radio"]:checked::after {
 
 /* Custom radio button when checked */
 input[type="radio"]:checked {
-	background-color: transparent; /* Background color */
-	border-color: #6750A4; /* Border color */
+	background-color: var(--primary); /* Background color */
+	border-color: var(--primary); /* Border color */
 }
 
 /* Checkbox styles */

@@ -1,4 +1,6 @@
 article {
-  outline: 1px solid var(--border);
-  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-medium);
+  overflow: hidden;
+  margin: 14px 0px;
 }
