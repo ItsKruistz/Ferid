@@ -4,9 +4,9 @@ input[type="radio"] {
 	appearance: none; /* Remove default appearance */
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	width: 19px; /* Size */
-	height: 19px;
-	border: 2px solid #b5b5b5; /* Border */
+	width: 20px; /* Size */
+	height: 20px;
+	border: 1.5px solid var(--border); /* Border */
 	border-radius: 50%; /* Circular shape */
 	outline: none; /* Remove outline */
 	cursor: pointer; /* Cursor */
@@ -24,7 +24,7 @@ input[type="radio"]::after {
 	width: 10.8px; /* Dot size */
 	height: 10.8px;
 	border-radius: 50%;
-	background-color: #6750A4; /* Dot color */
+	background-color: var(--primary); /* Dot color */
 	opacity: 0; /* Initially hidden */
 	transition: transform 0.1s ease-in-out; /* Transition */
 }
@@ -48,10 +48,10 @@ input[type="checkbox"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     padding-top: 0px; /* Padding */
-    width: 19px; /* Size */
-    height: 19px;
+    width: 20px; /* Size */
+    height: 20px;
     border: 1.5px solid var(--accent-high); /* Border */
-    border-radius: 3.4px; /* Border radius */
+    border-radius: 3.5px; /* Border radius */
     outline: none; /* Remove outline */
     cursor: pointer; /* Cursor */
     transition: background-color 0.1s, border-color 0.1s; /* Transition */
@@ -62,11 +62,11 @@ input[type="checkbox"] {
 input[type="checkbox"]::after {
     content: ""; /* Create checkmark */
     position: absolute;
-    bottom: 3.9px; /* Position */
+    bottom: 4px; /* Position */
     left: 50%;
     transform: translateX(-50%) rotate(45deg) scale(0.9); /* Initial rotation and scale */
-    width: 4px; /* Size */
-    height: 9px;
+    width: 6px; /* Size */
+    height: 12px;
     border-bottom: 1.76px solid #fff; /* Borders */
     border-right: 1.76px solid #fff;
     opacity: 0; /* Initially hidden */

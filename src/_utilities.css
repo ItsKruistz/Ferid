@@ -125,3 +125,11 @@ button:not(.icon).large i {
 .mr-1 {
   margin-right: 4px;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-initial {
+  display: flex-initial;
+}
