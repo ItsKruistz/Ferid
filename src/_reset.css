@@ -49,6 +49,10 @@ q:before, q:after {
   content: none;
 }
 
+fieldset {
+  border: none;
+}
+
 iframe {
   border: none;
 }

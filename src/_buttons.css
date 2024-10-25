@@ -23,16 +23,16 @@ button,
 }
 
 button:focus-visible,
-input[type="submit"]:focus-visible,
-input[type="reset"]:focus-visible,
-input[type="button"]:focus-visible {
+[type="submit"]:focus-visible,
+[type="reset"]:focus-visible,
+[type="button"]:focus-visible {
 	border: 1px solid var(--primary);
 }
 
 button:disabled,
-input[type="submit"]:disabled,
-input[type="reset"]:disabled,
-input[type="button"]:disabled {
+[type="submit"]:disabled,
+[type="reset"]:disabled,
+[type="button"]:disabled {
 	pointer-events: none;
 	opacity: 0.8;
 }
