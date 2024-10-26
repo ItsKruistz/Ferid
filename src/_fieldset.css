@@ -1,5 +1,9 @@
 fieldset {
   border: 1px solid var(--border);
   border-radius: var(--radius-medium);
-  padding: 8px 14px;
+  padding: 10px 14px;
+}
+
+legend {
+  font-weight: bold;
 }

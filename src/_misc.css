@@ -13,17 +13,17 @@ a {
 }
 
 header {
-  padding: 8px 14px;
+  padding: 10px 14px;
   border-bottom: 1px solid var(--border);
 }
 
 footer {
-  padding: 8px 14px;
+  padding: 10px 14px;
   background: var(--secondary);
 }
 
 nav {
-  padding: 8px 14px;
+  padding: 10px 14px;
 }
 
 main {
