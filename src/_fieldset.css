@@ -6,4 +6,5 @@ fieldset {
 
 legend {
   font-weight: bold;
+  padding: 6px;
 }

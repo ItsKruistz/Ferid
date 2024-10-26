@@ -34,6 +34,13 @@ hr {
 	border: 0.5px solid var(--border);
 }
 
+mark {
+  background: hsl(var(--primary-base), 49.8%, 30%);
+  border-radius: 4px;
+  padding: 2px 4px;
+  color: inherit;
+}
+
 code {
 	font-family: var(--ferid-font-monospace), "Consolas", monospace;
 	background: var(--accent);
