@@ -99,8 +99,15 @@ label span {
 
 textarea {
   width: 100%;
-  border: 1px solid var(--border);
+  border: 2px solid var(--border);
   border-radius: calc(var(--radius-medium) - 4px);
-  padding: 8px;
+  background: inherit;
+  color: inherit;
+  padding: 6px 10px;
   overflow: hidden;
+}
+
+textarea:focus {
+  outline: none;
+  border: 2px solid var(--primary);
 }
