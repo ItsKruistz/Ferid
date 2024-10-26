@@ -1,10 +1,10 @@
 blockquote {
-  border-left: 3px solid var(--accent);
+  border-left: 3px solid var(--primary-400);
   padding: 10px;
 }
 
 .alt blockquote {
-    background-color: var(--accent-alt);
+    background-color: var(--primary-400);
     margin: 1.5em 0;
     position: relative;
     padding: 0.7em;
