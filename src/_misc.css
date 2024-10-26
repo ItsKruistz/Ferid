@@ -35,7 +35,7 @@ hr {
 }
 
 code {
-	font-family: var(--exryber-font-monospace), "Consolas", monospace;
+	font-family: var(--ferid-font-monospace), "Consolas", monospace;
 	background: var(--accent);
 	padding: 2px 4px;
 	border-radius: 5px;
