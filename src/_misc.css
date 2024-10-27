@@ -63,3 +63,9 @@ kbd {
 
 /* Dummy (no function) class for alternative styling */
 .alt {}
+
+audio, video {
+  vertical-align: middle;
+  align-items: center;
+	justify-content: center;
+}

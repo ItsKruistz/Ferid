@@ -1,6 +1,6 @@
 h1 {
 	font-size: 32px;
-	line-height: 1.25;
+	line-height: 1.125;
 }
 
 h2 {
@@ -10,7 +10,7 @@ h2 {
 
 h3 {
 	font-size: 24px;
-	line-height: 1.18;
+	line-height: 1.175;
 }
 
 h4 {
@@ -32,8 +32,44 @@ small {
 	font-size: 14px;
 }
 
+.navbar h4 {
+  margin-bottom: 0;
+}
+
+header > h1:not([id]):not([class]):not([style]),
+header > h2:not([id]):not([class]):not([style]),
+header > h3:not([id]):not([class]):not([style]),
+header > h4:not([id]):not([class]):not([style]),
+header > h5:not([id]):not([class]):not([style]),
+header > h6:not([id]):not([class]):not([style]) {
+  margin-bottom: 0;
+}
+
+header > h1:not([id]):not([class]):not([style]):not([style*=""]),
+header > h2:not([id]):not([class]):not([style]):not([style*=""]),
+header > h3:not([id]):not([class]):not([style]):not([style*=""]),
+header > h4:not([id]):not([class]):not([style]):not([style*=""]),
+header > h5:not([id]):not([class]):not([style]):not([style*=""]),
+header > h6:not([id]):not([class]):not([style]):not([style*=""]) ~ * {
+  margin-bottom: 0;
+}
+
+header > h1:last-child,
+header > h2:last-child,
+header > h3:last-child,
+header > h4:last-child,
+header > h5:last-child,
+header > h6:last-child {
+  margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5rem;
+}
+
 hgroup h1 {
   line-height: 1.2;
+  margin-bottom: 0;
 }
 
 hgroup h2 {

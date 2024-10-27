@@ -56,3 +56,7 @@ fieldset {
 iframe {
   border: none;
 }
+
+progress, meter {
+  width: 100%;
+}

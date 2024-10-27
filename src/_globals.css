@@ -50,7 +50,7 @@
     --accent-high: hsl(12, 6.5%, 20%);
     --destructive: hsl(0, 62.8%, 30.6%);
     --destructive-foreground: hsl(0, 85.7%, 97.3%);
-    --border: hsl(240, 3.7%, 23.9%);
+    --border: hsl(240, 3.7%, 20.9%);
     --ring: var(--primary);
   }
 }
