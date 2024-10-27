@@ -5,6 +5,7 @@ fieldset {
 }
 
 legend {
+  color: var(--muted-foreground);
   font-weight: bold;
   padding: 4px;
 }

@@ -60,3 +60,11 @@ iframe {
 progress, meter {
   width: 100%;
 }
+
+select {
+  width: 100%;
+}
+
+file {
+  width: 100%;
+}
