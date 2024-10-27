@@ -36,6 +36,7 @@ small {
   margin-bottom: 0;
 }
 
+/* Existing rules */
 header > h1:not([id]):not([class]):not([style]),
 header > h2:not([id]):not([class]):not([style]),
 header > h3:not([id]):not([class]):not([style]),
@@ -45,6 +46,7 @@ header > h6:not([id]):not([class]):not([style]) {
   margin-bottom: 0;
 }
 
+/* Handle elements with siblings */
 header > h1:not([id]):not([class]):not([style]):not([style*=""]),
 header > h2:not([id]):not([class]):not([style]):not([style*=""]),
 header > h3:not([id]):not([class]):not([style]):not([style*=""]),
@@ -54,6 +56,7 @@ header > h6:not([id]):not([class]):not([style]):not([style*=""]) ~ * {
   margin-bottom: 0;
 }
 
+/* Special case for last element in header */
 header > h1:last-child,
 header > h2:last-child,
 header > h3:last-child,
@@ -63,8 +66,18 @@ header > h6:last-child {
   margin-bottom: 0;
 }
 
+/* New rule for top margin */
+header > h1:not([id]):not([class]):not([style]),
+header > h2:not([id]):not([class]):not([style]),
+header > h3:not([id]):not([class]):not([style]),
+header > h4:not([id]):not([class]):not([style]),
+header > h5:not([id]):not([class]):not([style]),
+header > h6:not([id]):not([class]):not([style]) {
+  margin-top: 0.1rem; /* Adjust as needed */
+}
+
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 hgroup h1 {
