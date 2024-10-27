@@ -294,11 +294,3 @@ input[type="file"]::file-selector-button {
 input[type="file"] {
   position: relative;
 }
-
-input[type="file"]::before {
-  content: "Browse";
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-}
