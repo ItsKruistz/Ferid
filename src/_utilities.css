@@ -114,6 +114,10 @@ button:not(.icon).large i {
   vertical-align: middle;
 }
 
+.gap-1 {
+  gap: 4px;
+}
+
 .mb-2 {
   margin-bottom: 8px;
 }

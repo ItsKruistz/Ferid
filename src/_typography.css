@@ -74,6 +74,27 @@ hgroup h1 {
 
 hgroup h2 {
   line-height: 1.2;
+  margin-bottom: 0;
+}
+
+hgroup h3 {
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+hgroup h4 {
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+hgroup h5 {
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+hgroup h6 {
+  line-height: 1.2;
+  margin-bottom: 0;
 }
 
 hgroup p {

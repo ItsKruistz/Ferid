@@ -108,6 +108,7 @@ textarea {
   color: inherit;
   padding: 6px 10px;
   overflow: hidden;
+  transition: 0.1s;
 }
 
 textarea:focus {
