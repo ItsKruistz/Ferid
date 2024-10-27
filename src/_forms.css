@@ -124,3 +124,133 @@ textarea::-webkit-input-placeholder, /* Webkit based */
 textarea::placeholder { /* Modern browsers */
   color: var(--accent);  
 }
+
+/* Reset default browser styles */
+input[type="color"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="image"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  /* Remove default browser appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* Common properties */
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius-medium) - 4px);
+  background: inherit;
+  color: inherit;
+  padding: 6px 10px;
+  overflow: hidden;
+  transition: 0.1s;
+}
+
+/* Override specific input types */
+input[type="color"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="image"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  /* Additional properties for specific input types */
+  font-size: 16px; /* Example property */
+}
+
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="image"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus {
+  /* Additional properties for specific input types */
+  outline: none;
+  border: 2px solid var(--primary);
+  padding: 5px 9px;
+}
+
+input[type=range] {
+  width: 100%;
+}
+
+/* Base style for range input */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Track style */
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 6px;
+  background: var(--primary-300);
+  border-radius: 2.5px;
+}
+
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 6px;
+  background: var(--primary-300);
+  border-radius: 2.5px;
+}
+
+/* Knob style */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: var(--primary);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: var(--primary);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Center the knob vertically */
+input[type="range"]::-webkit-slider-thumb {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+input[type="range"]::-moz-range-thumb {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

@@ -22,6 +22,12 @@ button,
 	font-family: inherit;
 }
 
+[type=submit],
+[type=reset],
+[type=button] {
+  width: 100%;
+}
+
 button:focus-visible,
 [type="submit"]:focus-visible,
 [type="reset"]:focus-visible,
