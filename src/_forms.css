@@ -1,5 +1,6 @@
 /* Radio button styles */
-input[type="radio"] {
+input[type="radio"],
+input[type="checkbox"] {
 	position: relative; /* Positioning */
 	appearance: none; /* Remove default appearance */
 	-webkit-appearance: none;
@@ -11,7 +12,7 @@ input[type="radio"] {
 	outline: none; /* Remove outline */
 	cursor: pointer; /* Cursor */
 	vertical-align: middle; /* Vertical alignment */
-	transition: background-color 0.2s, border-color 0.08s; /* Transition */
+	transition: background-color 0.1s, border-color 0.1s; /* Transition */
 }
 
 /* Custom dot inside the radio button */
@@ -43,19 +44,7 @@ input[type="radio"]:checked {
 
 /* Checkbox styles */
 input[type="checkbox"] {
-    position: relative; /* Positioning */
-    appearance: none; /* Remove default appearance */
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    padding-top: 0px; /* Padding */
-    width: 20px; /* Size */
-    height: 20px;
-    border: 1.5px solid var(--border); /* Border */
     border-radius: 3.5px; /* Border radius */
-    outline: none; /* Remove outline */
-    cursor: pointer; /* Cursor */
-    transition: background-color 0.1s, border-color 0.1s; /* Transition */
-    vertical-align: middle; /* Align with text */
 }
 
 /* Custom checkmark */
