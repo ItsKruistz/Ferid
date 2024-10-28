@@ -32,10 +32,6 @@ small {
 	font-size: 14px;
 }
 
-.navbar h4 {
-  margin-bottom: 0;
-}
-
 /* Existing rules */
 header > h1:not([id]):not([class]):not([style]),
 header > h2:not([id]):not([class]):not([style]),
@@ -66,18 +62,8 @@ header > h6:last-child {
   margin-bottom: 0;
 }
 
-/* New rule for top margin */
-header > h1:not([id]):not([class]):not([style]),
-header > h2:not([id]):not([class]):not([style]),
-header > h3:not([id]):not([class]):not([style]),
-header > h4:not([id]):not([class]):not([style]),
-header > h5:not([id]):not([class]):not([style]),
-header > h6:not([id]):not([class]):not([style]) {
-  margin-top: 0.1rem; /* Adjust as needed */
-}
-
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.2rem;
 }
 
 hgroup h1 {

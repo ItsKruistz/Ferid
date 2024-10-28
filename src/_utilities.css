@@ -24,6 +24,7 @@ a .outlined {
 
 .primary {
 	background: var(--primary);
+	color: var(--primary-foreground)
 	border-color: transparent;
 }
 

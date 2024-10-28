@@ -1,53 +1,6 @@
 blockquote {
   border-left: 3px solid var(--primary-400);
   padding: 10px;
-  background: var(--accent);
+  background: var(--secondary);
   border-radius: 0px var(--radius) var(--radius) 0px;
-}
-
-blockquote .alt {
-    background-color: var(--primary-alt);
-    margin: 1.5em 0;
-    position: relative;
-    padding: 0.7em;
-    z-index: 1;
-    border-radius: 0.5em;
-}
-
-blockquote .alt::after,
-blockquote .alt::before {
-    color: var(--primary-400);
-    font-size: 5em;
-    line-height: 0.8;
-}
-
-blockquote .alt::before {
-    content: open-quote;
-    vertical-align: top;
-    position: absolute;
-    left: -0.15em;
-    top: -0.1em;
-}
-
-blockquote .alt::after {
-    content: close-quote;
-    vertical-align: bottom;
-    position: absolute;
-    right: -0.1em;
-    bottom: -0.65em;
-}
-
-[lang='fr'] blockquote .alt::before,
-[lang='fr'] blockquote .alt::after {
-    font-size: 3.5em;
-}
-
-[lang='fr'] blockquote .alt::before {
-    left: -0.3em;
-    top: -0.4em;
-}
-
-[lang='fr'] blockquote .alt::after {
-    right: -0.3em;
-    bottom: -0.3em;
 }
