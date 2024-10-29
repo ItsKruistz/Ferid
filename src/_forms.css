@@ -7,6 +7,7 @@ input[type="checkbox"] {
 	-moz-appearance: none;
 	width: 20px; /* Size */
 	height: 20px;
+	margin: 4px 8px 4px 0px;
 	border: 1.5px solid var(--border); /* Border */
 	border-radius: 50%; /* Circular shape */
 	outline: none; /* Remove outline */
@@ -75,15 +76,9 @@ input[type="checkbox"]:checked {
 
 /* Text alignment for checkboxes */
 label {
-    display: inline-flex; /* Inline flex */
-    align-items: center; /* Align items vertically */
-    cursor: pointer; /* Cursor */
-    vertical-align: middle; /* Align with text */
-}
-
-label span {
-    margin-right: 6px;
-    margin-left: 6px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
 }
 
 textarea {

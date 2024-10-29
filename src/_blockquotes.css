@@ -1,6 +1,6 @@
 blockquote {
   border-left: 3px solid var(--primary-400);
   padding: 10px;
-  background: var(--secondary);
+  background: var(--accent);
   border-radius: 0px var(--radius) var(--radius) 0px;
 }
