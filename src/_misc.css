@@ -8,6 +8,10 @@
   color: var(--foreground);
 }
 
+iframe, object, embed {
+  border-radius: var(--radius-medium);
+}
+
 a {
   color: var(--primary);
 }

@@ -1,10 +1,22 @@
 article {
-  border: 1px solid var(--border);
   border-radius: var(--radius-medium);
   overflow: hidden;
   margin: 14px 0px;
+  background: var(--secondary);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+article footer {
+  background: var(--secondary-alt);
 }
 
 article > *:not(header):not(footer) {
   padding: 14px;
+}
+
+.outlined article {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-medium);
+  margin: 14px 0px;
 }
