@@ -19,4 +19,13 @@ article > *:not(header):not(footer) {
   border: 1px solid var(--border);
   border-radius: var(--radius-medium);
   margin: 14px 0px;
+  box-shadow: none;
+}
+
+article header.flat {
+  border: none;
+}
+
+article footer.flat {
+  background: inherit;
 }
