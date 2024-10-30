@@ -51,8 +51,8 @@ a .outlined {
   align-items: center;
   justify-content: center;
   color: inherit;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .ghost {
