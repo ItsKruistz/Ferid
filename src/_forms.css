@@ -199,7 +199,7 @@ input[type="range"] {
 /* Track style */
 input[type="range"]::-webkit-slider-runnable-track {
   width: 100%;
-  height: 5px;
+  height: 4px;
   background: var(--primary-alt);
   border-radius: 2.5px;
 }
