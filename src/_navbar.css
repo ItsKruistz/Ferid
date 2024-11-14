@@ -8,10 +8,11 @@
   display: flex;
   align-items: center;
   background: var(--secondary);
-  justify-content: space-between;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 .navbar h3, h4, h5, h6 {
   margin-bottom: 0;
+  flex: 1;
+  margin: 0px 8px;
 }
