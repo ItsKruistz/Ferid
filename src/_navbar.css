@@ -15,3 +15,7 @@
   flex: 1;
   margin: 0px 8px;
 }
+
+.navbar svg, i {
+  z-index: 1;
+}

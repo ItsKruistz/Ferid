@@ -14,12 +14,24 @@
     </style>
   </head>
   <body>
+<input type="checkbox" id="drawer-toggle" name="drawer-toggle" />
+<label for="drawer-toggle" id="drawer-toggle-overlay"></label>
+
+
+<nav id="drawer">
+  <ul>
+    <li><a href="#">Menu Item</a></li>
+    <li><a href="#">Menu Item</a></li>
+    <li><a href="#">Menu Item</a></li>
+    <li><a href="#">Menu Item</a></li>
+  </ul>
+</nav>
     <nav class="navbar">
-      <button class="icon ghost" aria-label="Navigation menu">
+      <label for="drawer-toggle" role="button" class="icon ghost" aria-label="Navigation menu">
         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
       <path d="M3 12h18M3 6h18M3 18h18"/>
         </svg>
-      </button>
+      </label>
       <h4>Ferid</h4>
       <button class="icon ghost" aria-label="Download Ferid">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
