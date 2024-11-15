@@ -47,11 +47,11 @@ position: fixed;
 top: 0; 
 left:-300px; 
 height: 100%; 
-width: 300px; 
+width: 280px; 
 background: var(--secondary); 
 overflow-x: hidden; 
 overflow-y: scroll; 
-padding: 20px; 
+padding: 8px; 
 z-index: 20;
 -webkit-overflow-scrolling: touch; 
 } 
@@ -73,14 +73,14 @@ padding: 20px;
 
 #drawer-toggle:checked ~ #drawer-toggle-overlay { 
 height: 100%; 
-width: calc(100% - 300px); 
+width: calc(100% - 280px);
 background: rgba(0,0,0,.4);
 z-index: 20;
 } 
 
 #drawer-toggle:checked ~ #drawer-toggle-overlay, 
 #drawer-toggle:checked ~ header { 
-left: 300px; 
+left: 280px; 
 } 
 
 #drawer-toggle:checked ~ #drawer { 
@@ -99,13 +99,12 @@ list-style-type:none;
 
 #drawer ul a { 
 display:block; 
-padding:10px; 
-color:#c7c7c7; 
-text-decoration:none; 
+padding: 8px; 
+color: var(--muted-foreground);
 } 
 
 #drawer ul a:hover { 
-color:white; 
+color: inherit; 
 } 
 
 @media all and (max-width:350px) { 
@@ -122,7 +121,7 @@ left: calc(100% - 50px);
 
 #drawer-toggle:checked ~ #drawer { 
 width: calc(100% - 50px); 
-padding: 20px; 
+padding: 8px; 
 } 
 
 #drawer-toggle:checked ~ #page-content { 
