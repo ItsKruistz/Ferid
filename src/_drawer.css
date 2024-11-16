@@ -30,7 +30,7 @@ background: rgba(255,255,255,.0);
   background: var(--secondary); 
   overflow-x: hidden; 
   overflow-y: scroll; 
-  padding: 8px; 
+  padding: 6px; 
   z-index: 20;
   -webkit-overflow-scrolling: touch;
 } 
@@ -57,11 +57,17 @@ margin-left: 300px;
 }
 
 #drawer ul a { 
-display:flex; 
-padding: 8px; 
+display:flex;
+padding: 10px;
+font-weight: 500;
 color: var(--muted-foreground);
 border-radius: var(--radius-medium);
 } 
+
+ul a svg,
+ul a i {
+  margin-inline-end: 8px; /* Adjust the value as needed */
+}
 
 #drawer ul a:hover { 
 color: inherit;
