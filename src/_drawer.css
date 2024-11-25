@@ -30,7 +30,7 @@ background: rgba(255,255,255,.0);
   background: var(--secondary); 
   overflow-x: hidden; 
   overflow-y: scroll; 
-  padding: 6px; 
+  padding: 8px; 
   z-index: 20;
   -webkit-overflow-scrolling: touch;
 } 
@@ -58,8 +58,8 @@ margin-left: 300px;
 
 #drawer ul a { 
 display:flex;
-padding: 10px;
-font-weight: 500;
+padding: 8px;
+font-weight: 600;
 color: var(--muted-foreground);
 border-radius: var(--radius-medium);
 } 

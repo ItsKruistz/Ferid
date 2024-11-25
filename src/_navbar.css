@@ -18,7 +18,7 @@
   align-items: center;
   border-bottom: 1px solid var(--border);
   backdrop-filter: blur(12px);
-  background: ;
+  background: var(--navbar-background);
 }
 
 .navbar h3, h4, h5, h6 {
