@@ -1,9 +1,9 @@
 :root {
-    --navbar-background: hsl(0, 0%, 100%, 50%);
+    --navbar-background: hsl(0, 0%, 100%, 75%);
 }
 
 @media (prefers-color-scheme: dark) {:root {
-    --navbar-background: hsl(0, 0%, 6.3%, 50%);
+    --navbar-background: hsl(0, 0%, 6.3%, 75%);
   }
 }
 
